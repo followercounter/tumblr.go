@@ -8,7 +8,7 @@ type User struct {
 	Following         uint32      `json:"following"`
 	DefaultPostFormat string      `json:"default_post_format"`
 	Name              string      `json:"name"`
-	Likes             uint64      `json:"likes"`
+	Likes             int64       `json:"likes"`
 	Blogs             []ShortBlog `json:"blogs"`
 }
 
